@@ -37,13 +37,13 @@ h2 {
 
 .mainText {
     text-align: justify;
-    margin-bottom: 8px;
+    margin-bottom: 25px;
 }
 
 
 .container {
-    width: 1140px;
-    margin: 20px auto 0 auto
+    width: 1140px; /*standard screen size*/
+    margin: 20px auto 0 auto;
 }
 
 .MainBox {
@@ -64,6 +64,13 @@ h2 {
     float: left;
 }
 
+.authorBox {
+    border-top: 1px solid #000000;
+    padding: 20px 0 0 0;
+    background-color: beige;
+
+}
+
 .author {
     font-size: 26px;
     float: left;
@@ -71,12 +78,6 @@ h2 {
     margin-left: 5px;
 }
 
-
-.authorBox {
-    border-top: 1px solid #bfbfbf;
-    padding: 20px 0 0 0;
-
-}
 
 .authorBox img {
     height: 100px;
@@ -95,3 +96,5 @@ h2 {
     top: 10px;
     right: 30px;
 }
+
+
