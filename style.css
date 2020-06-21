@@ -1,0 +1,97 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    /* To be explained later*/
+}
+
+body {
+    font-family: sans-serif, Arial;
+    font-size: 18px;
+    color: #5a0101;
+}
+
+
+h1, h2 {
+    color: rgb(69, 69, 69);
+    font-family: sans-serif, Arial;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+
+.mainText {
+    text-align: justify;
+    margin-bottom: 8px;
+}
+
+
+.container {
+    width: 1140px;
+    margin: 20px auto 0 auto
+}
+
+.MainBox {
+    width: 75%;
+    float: left; /*This allows the divides boxes to be side by side on the page.*/
+    padding: 0 30px 5px 0;
+    position: relative;
+}
+
+.MainBox img {
+    width: 150px;
+    height: auto;
+    /*This is to adjust images in the MainBox class. */
+}
+
+.sideBox {
+    width: 25%;
+    float: left;
+}
+
+.author {
+    font-size: 26px;
+    float: left;
+    margin-top: 34px;
+    margin-left: 5px;
+}
+
+
+.authorBox {
+    border-top: 1px solid #bfbfbf;
+    padding: 20px 0 0 0;
+
+}
+
+.authorBox img {
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #a0a0a0;
+    float: left;
+
+}
+
+.other {
+    margin: 0 0 10px 0;
+}
+
+.date {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
